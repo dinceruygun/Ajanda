@@ -1,0 +1,46 @@
+{
+    "activityTypes": [
+        {
+            "id": "0",
+            "name": "Boş",
+            "color": "#e0e0e0",
+            "icon": "circle"
+        },
+        {
+            "id": "1",
+            "name": "Yıllık İzin",
+            "color": "#28a745",
+            "icon": "umbrella-beach"
+        },
+        {
+            "id": "2",
+            "name": "Eğitim",
+            "color": "#17a2b8",
+            "icon": "graduation-cap"
+        },
+        {
+            "id": "3",
+            "name": "Görevlendirme",
+            "color": "#ffc107",
+            "icon": "tasks"
+        },
+        {
+            "id": "4",
+            "name": "Toplantı",
+            "color": "#3788d8",
+            "icon": "users"
+        },
+        {
+            "id": "5",
+            "name": "Hastalık",
+            "color": "#dc3545",
+            "icon": "procedures"
+        },
+        {
+            "id": "6",
+            "name": "İş Seyahati",
+            "color": "#6f42c1",
+            "icon": "plane"
+        }
+    ]
+} 

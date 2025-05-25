@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personel Ajanda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="selected-personel-info"></div>
+    <div class="container">
+        <div class="sidebar">
+            <div class="search-box">
+                <div class="search-input-container">
+                    <input type="text" id="personelSearch" placeholder="Kişi ara...">
+                    <button id="filterToggle" class="filter-button">⚡</button>
+                </div>
+                <div id="filterPanel" class="filter-panel">
+                    <div class="filter-section">
+                        <h3>Kişi Türü</h3>
+                        <div class="filter-toggles person-type-toggles">
+                            <!-- Kişi türleri JavaScript ile doldurulacak -->
+                        </div>
+                    </div>
+                    <div class="filter-section">
+                        <h3>Aktivite Türü</h3>
+                        <div class="filter-toggles activity-type-toggles">
+                            <!-- Aktivite türleri JavaScript ile doldurulacak -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="personel-container">
+                <div class="personel-listesi">
+                    <!-- Kişi listesi JavaScript ile doldurulacak -->
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="calendar-container">
+                <div class="calendar-header">
+                    <div class="calendar-title">Aktivite Takvimi</div>
+                    <div class="calendar-actions">
+                        <button id="newEventBtn" class="btn btn-primary">
+                            <i class="fas fa-plus"></i>
+                            <span>Yeni Aktivite</span>
+                        </button>
+                        <button id="saveChangesBtn" class="btn btn-success" style="display: none;">
+                            <i class="fas fa-disk"></i>
+                            <span>Kaydet</span>
+                        </button>
+                    </div>
+                </div>
+                <div id="calendar"></div>
+                <div id="listView" class="list-view">
+                    <div class="list-view-header">
+                        <div class="list-view-title">Aktivite Listesi</div>
+                        <div class="list-view-filters">
+                            <select id="listViewFilter" class="form-control">
+                                <option value="all">Tümü</option>
+                                <option value="today">Bugün</option>
+                                <option value="week">Bu Hafta</option>
+                                <option value="month">Bu Ay</option>
+                                <option value="custom">Özel Tarih Aralığı</option>
+                            </select>
+                            <div id="customDateRange" style="display: none;">
+                                <input type="date" id="startDate" class="form-control">
+                                <input type="date" id="endDate" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-view-content">
+                        <!-- Aktivite listesi JavaScript ile doldurulacak -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="eventModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Aktivite Detayları</h2>
+            <form id="eventForm">
+                <input type="hidden" id="eventId">
+                <div class="form-group">
+                    <label for="eventTitle">Başlık:</label>
+                    <input type="text" id="eventTitle" required>
+                </div>
+                <div class="form-group">
+                    <label>Aktivite Türü:</label>
+                    <div class="activity-type-toggles">
+                        <!-- Aktivite türleri JavaScript ile doldurulacak -->
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="eventStart">Başlangıç:</label>
+                    <input type="datetime-local" id="eventStart" required>
+                </div>
+                <div class="form-group">
+                    <label for="eventEnd">Bitiş:</label>
+                    <input type="datetime-local" id="eventEnd" required>
+                </div>
+                <div class="form-group">
+                    <label for="eventDescription">Açıklama:</label>
+                    <textarea id="eventDescription"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="modalPersonelSearch">Personel Seçimi</label>
+                    <div class="personel-select-container">
+                        <div class="modal-selected-personel-tags"></div>
+                        <input type="text" id="modalPersonelSearch" class="personel-search" placeholder="Personel ara...">
+                        <div class="modal-personel-dropdown"></div>
+                    </div>
+                </div>
+                <div class="form-buttons">
+                    <button type="submit" id="saveEvent">Kaydet</button>
+                    <button type="button" id="deleteEvent">Sil</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.17/index.global.min.js'></script>
+    <script src="script.js"></script>
+</body>
+</html> 

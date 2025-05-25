@@ -1,0 +1,84 @@
+{
+    "eventParticipants": [
+        {
+            "eventId": "1",
+            "personelId": "4",
+            "role": "location"
+        },
+        {
+            "eventId": "1",
+            "personelId": "1",
+            "role": "participant"
+        },
+        {
+            "eventId": "1",
+            "personelId": "2",
+            "role": "participant"
+        },
+        {
+            "eventId": "2",
+            "personelId": "5",
+            "role": "location"
+        },
+        {
+            "eventId": "2",
+            "personelId": "1",
+            "role": "participant"
+        },
+        {
+            "eventId": "3",
+            "personelId": "6",
+            "role": "location"
+        },
+        {
+            "eventId": "3",
+            "personelId": "2",
+            "role": "participant"
+        },
+        {
+            "eventId": "4",
+            "personelId": "5",
+            "role": "location"
+        },
+        {
+            "eventId": "4",
+            "personelId": "3",
+            "role": "participant"
+        },
+        {
+            "eventId": "5",
+            "personelId": "4",
+            "role": "location"
+        },
+        {
+            "eventId": "5",
+            "personelId": "1",
+            "role": "participant"
+        },
+        {
+            "eventId": "5",
+            "personelId": "2",
+            "role": "participant"
+        },
+        {
+            "eventId": "6",
+            "personelId": "7",
+            "role": "location"
+        },
+        {
+            "eventId": "7",
+            "personelId": "5",
+            "role": "location"
+        },
+        {
+            "eventId": "7",
+            "personelId": "1",
+            "role": "participant"
+        },
+        {
+            "eventId": "7",
+            "personelId": "3",
+            "role": "participant"
+        }
+    ]
+} 

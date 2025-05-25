@@ -1,0 +1,54 @@
+{
+    "project_name": "default",
+    "personeller": [
+        {
+            "id": "1",
+            "code": "P001",
+            "name": "Ahmet Yılmaz",
+            "title": "Yazılım Geliştirici",
+            "typeId": "1"
+        },
+        {
+            "id": "2",
+            "code": "P002",
+            "name": "Ayşe Demir",
+            "title": "Proje Yöneticisi",
+            "typeId": "1"
+        },
+        {
+            "id": "3",
+            "code": "P003",
+            "name": "Mehmet Kaya",
+            "title": "UI/UX Tasarımcı",
+            "typeId": "1"
+        },
+        {
+            "id": "4",
+            "code": "T001",
+            "name": "Toplantı Odası 1",
+            "title": "Kapasite: 10 Kişi",
+            "typeId": "2"
+        },
+        {
+            "id": "5",
+            "code": "T002",
+            "name": "Toplantı Odası 2",
+            "title": "Kapasite: 6 Kişi",
+            "typeId": "2"
+        },
+        {
+            "id": "6",
+            "code": "M001",
+            "name": "Bilgi İşlem Müdürlüğü",
+            "title": "Kat: 3",
+            "typeId": "3"
+        },
+        {
+            "id": "7",
+            "code": "M002",
+            "name": "İnsan Kaynakları Müdürlüğü",
+            "title": "Kat: 2",
+            "typeId": "3"
+        }
+    ]
+} 

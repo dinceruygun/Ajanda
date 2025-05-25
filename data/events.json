@@ -1,0 +1,86 @@
+{
+    "project_name": "default",
+    "events": [
+        {
+            "id": "1",
+            "title": "Proje Kick-off Toplantısı",
+            "start": "2025-05-01 09:00",
+            "end": "2025-05-01 11:00",
+            "description": "Yeni proje başlangıç toplantısı",
+            "activityTypeId": "1",
+            "locationId": "4"
+        },
+        {
+            "id": "2",
+            "title": "React Workshop",
+            "start": "2025-05-02 10:00",
+            "end": "2025-05-02 14:00",
+            "description": "React temel kavramları ve hooks kullanımı",
+            "activityTypeId": "1",
+            "locationId": "1"
+        },
+        {
+            "id": "3",
+            "title": "Müşteri Sunumu",
+            "start": "2025-05-06 10:00",
+            "end": "2025-05-06 12:00",
+            "description": "Yeni müşteri projesi sunumu",
+            "activityTypeId": "1",
+            "locationId": "6"
+        },
+        {
+            "id": "4",
+            "title": "Kod İncelemesi",
+            "start": "2025-05-07 14:00",
+            "end": "2025-05-07 16:00",
+            "description": "Haftalık kod inceleme toplantısı",
+            "activityTypeId": "3",
+            "locationId": "5"
+        },
+        {
+            "id": "5",
+            "title": "Sprint Planlama",
+            "start": "2025-05-12 09:00",
+            "end": "2025-05-12 11:00",
+            "description": "Yeni sprint planlama toplantısı",
+            "activityTypeId": "1",
+            "locationId": "4"
+        },
+        {
+            "id": "6",
+            "title": "Performans Değerlendirmesi",
+            "start": "2025-05-19 13:00",
+            "end": "2025-05-19 15:00",
+            "description": "Aylık performans değerlendirme toplantısı",
+            "activityTypeId": "4",
+            "locationId": "7"
+        },
+        {
+            "id": "7",
+            "title": "Teknik Workshop",
+            "start": "2025-05-27 10:00",
+            "end": "2025-05-27 17:00",
+            "description": "Yeni teknolojiler workshop'u",
+            "activityTypeId": "2",
+            "locationId": "5"
+        },
+        {
+            "id": "8",
+            "title": "Node.js Eğitimi",
+            "start": "2025-05-03 09:00",
+            "end": "2025-05-03 17:00",
+            "description": "Node.js ile backend geliştirme",
+            "activityTypeId": "2",
+            "locationId": "2"
+        },
+        {
+            "id": "9",
+            "title": "Docker Workshop",
+            "start": "2025-05-04 13:00",
+            "end": "2025-05-04 16:00",
+            "description": "Docker container ve image yönetimi",
+            "activityTypeId": "3",
+            "locationId": "3"
+        }
+    ]
+} 

@@ -1,0 +1,22 @@
+{
+    "personTypes": [
+        {
+            "id": "1",
+            "name": "Personel",
+            "icon": "👤",
+            "color": "#3788d8"
+        },
+        {
+            "id": "2",
+            "name": "Toplantı Odası",
+            "icon": "🏢",
+            "color": "#28a745"
+        },
+        {
+            "id": "3",
+            "name": "Müdürlük",
+            "icon": "👔",
+            "color": "#dc3545"
+        }
+    ]
+} 
