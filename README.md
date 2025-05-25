@@ -2,6 +2,8 @@
 
 Personel Ajanda, şirketlerin personel aktivitelerini ve takvimlerini yönetmek için geliştirilmiş web tabanlı bir uygulamadır.
 
+<img width="1675" alt="image" src="https://github.com/user-attachments/assets/a75afa1f-3f0b-4cc5-9974-c1d9f5d2f2d3" />
+
 ## 🌟 Özellikler
 
 - 📅 Takvim görünümü ile aktivite yönetimi
